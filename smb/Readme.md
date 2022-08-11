@@ -6,7 +6,7 @@ create a mountpoint
 mkdir /mnt/smb
 ```
 
-Install libraies to support smb share
+Install libraries to support smb share
 
 ```sh
 sudo apt install cifs-utils
@@ -33,7 +33,7 @@ mount the share
 ```sh
 mount -t cifs -o credentials=/etc/win-credentials //WIN_SHARE_IP/<share_name> /mnt/smb
 ```
-##Automount smb share during startup
+## Automount smb share during startup
 
 create a entry in the fstab fiel
 
